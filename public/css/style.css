@@ -1,0 +1,488 @@
+
+
+
+/* <==============================>Default  Css==============================> */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6, span , p, a, button{
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-spacal{
+    border: none;
+    background-color: #00bbf0;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 45px;
+    transition: all .3s;
+}
+.button-spacal:hover{
+    background-color: #007fa4;
+}
+
+
+/* <==============================>Header Css==============================> */
+.sticky-header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15c4ca;
+
+    
+}
+.header-section .logo{
+    cursor: pointer;
+}
+  
+.header-section .logo h2{
+    color: white;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.header-menu{
+   
+}
+.header-menu ul{
+    display: flex;
+    margin: 0;
+
+}
+.header-menu ul li{
+    padding: 0px 10px;
+}
+.header-menu ul li:last-child{
+    padding-right: 10px;
+}
+.header-menu ul li a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.header-menu ul li a:hover{
+    color: #00bbf0;
+}
+
+
+/* <==============================> Herro section ==============================> */
+
+.hero-section-cover-area{
+    background-image: url("/public/img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    height: 130vh;
+}
+.hero-section-left{
+    margin-left: 100px;
+}
+.hero-section-left h1{
+    width: 30%;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-top: 200px;
+}
+.hero-section-left p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.hero-section-left button {
+    font-size: 20px;
+    padding: 7px 30px;
+    border: none;
+    background-color: #00bbf0;
+    color: white;
+    transition: all .3s;
+    border-radius: 29px;
+}
+
+.hero-section-left button:hover{
+    background-color:#007fa4;
+    
+}
+
+.hero-section-right img{
+    height: 500px;
+    width: 500px;
+}
+
+/* <==============================> Our service section ==============================> */
+
+.service-section-header{
+    padding: 100px 0px;
+}
+
+.service-section-header h1{
+font-size: 35px;
+font-weight: 700;
+}
+.service-section-header h1 span{
+    color: #00bbf0;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.service-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+}
+
+
+.service-content-box{
+    width: 30%;
+    margin: 40px 0px;
+}
+.service-content-box{
+   background-color: #f8f8f9;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.service-content-box .service-image-box {
+    width: 100px;
+    margin-bottom: 20px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0px auto;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.service-content-box .service-image-box:hover{
+    box-shadow: 0px 0px 10px -1px black;
+}
+
+
+.service-content-box .service-image-box img{
+    height: 70px;
+    object-fit: cover;
+    width: 70px;
+}
+
+.service-content-box h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin:10px 0px ;
+}
+.service-content-box button{
+    border: none;
+    background-color: transparent;
+    margin-top: 10px 0px;
+    transition: all .3s;
+}
+.service-content-box button:hover{
+    color: #00bbf0;
+}
+
+/* <==============================> Our service section ==============================> */
+
+.about-section{
+    background-color:#00204a ;
+    padding: 100px 100px;
+}
+
+.aboutUs-section-header{}
+.aboutUs-section-header h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.aboutUs-section-header h1 span{
+    color: #00bbf0;
+    font-size: 35px;
+    font-weight: 700;
+}
+.aboutUs-section-header p{
+    color: white;
+}
+
+.about-section-left{
+    margin-top: 30px;
+}
+.about-section-left img{
+  
+    width: 600px;
+    object-fit: cover;
+
+}
+
+
+.about-section-right{
+    margin-top: 100px;
+}
+.about-section-right h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-section-right p{
+    color: white;
+    font-weight: 400;
+}
+.about-section-right button{}
+
+/* <==============================> Why choose us section ==============================> */
+.why-choose-us{
+    text-align: center;
+    padding: 100px;
+}
+.why-choose-us h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.why-choose-us span{
+    color: #00bbf0;
+}
+
+.why-chose-us-logo{
+    cursor: pointer;
+
+}
+.why-chose-us-logo img{
+   height: 100px;
+   width: 100px;
+   object-fit: cover;
+   padding: 10px;
+   border: 4px solid #00204a;
+   border-radius: 50%;
+   transition: all .3s;
+   margin: 10px 0px;
+
+}
+
+.why-chose-us-logo img:hover{
+    border-color: #00bbf0;
+}
+
+.why-chose-us-logo{
+    margin-bottom: 20px;
+}
+
+
+/* <==============================> Team section CSS  ==============================> */
+
+.team-section{
+    background-color:#00204a ;
+    padding: 100px 0px;
+}
+
+.team-section h2{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.team-section h2 span{
+    color: #00bbf0;
+}
+
+.team-member-contentbox{
+    background-color:#00295d;
+    width: 23%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+
+
+}
+.team-member-contentbox:hover{
+    background-color: transparent ;
+}
+.team-member-contentbox .team-member-image img{
+    height: 100px;
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 50%;
+
+}
+.team-member-contentbox h3{
+    color: #00bbf0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.team-member-contentbox h6{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+.team-member-contentbox ul{
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.team-member-contentbox ul li{
+    padding: 0px 7px;
+    cursor: pointer;
+}
+.team-member-contentbox ul li:first-child{
+    padding-left: 0;
+}
+.team-member-contentbox ul li:last-child{
+    padding-right: 0;
+}
+.team-member-contentbox ul li a{
+    font-size: 20px;
+    color: white;
+    background-color:transparent;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: auto 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+.team-member-contentbox ul li a:hover{
+    background-color: white;
+    color: #00295d;
+    rotate: y 360deg;
+}
+
+.team-member-box-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+/* <==============================> Client Section css ==============================> */
+.our-client-section-header{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+
+}
+.our-client-section-header-top h2{
+    text-align: center;
+    position: relative;
+    top: 80px;
+
+}
+.our-client-section-header-top h2 span{
+    color: #00bbf0;
+}
+
+.client-quite{
+    width: 48%;
+    box-shadow: 0px 0px 10px -5px black;
+    padding: 0px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.client-quite-single-person{}
+.client-quite-single-person img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: relative;
+    top: -50px;
+
+}
+
+.quteation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quteation a i{
+    color: black;
+    font-size: 20px;
+}
+/* <==============================> Dotter section csss add here ==============================> */
+
+.fotter-content{
+    background-color: #00204a;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+
+.fotter-inner-item{
+    width: 23%;
+    padding: 4px;
+}
+.fotter-inner-item h3{
+    color: white;
+
+}
+.fotter-inner-item p{
+    color: white;
+}
+.fotter-inner-item ul{
+    display: flex;
+    justify-content: left;
+    padding: 0;
+
+}
+.fotter-inner-item ul li{
+    padding: 0px 10px;
+}
+.fotter-inner-item ul li:last-child{
+    padding-right: 0;
+}
+.fotter-inner-item ul li:first-child{
+    padding-left: 0;
+}
+
+.fotter-inner-item ul li a{
+    color: white;
+    font-size: 20px;
+}
+.fotter-inner-item ul li a i{}
+
+.fotter-inner-item input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-bottom:1px solid white;
+}
+.fotter-inner-item input::placeholder{
+    color: white;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
